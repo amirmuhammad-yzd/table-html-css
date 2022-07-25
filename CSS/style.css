@@ -1,0 +1,34 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table
+{
+    border: none;
+    min-width: 100px;
+    padding: 10px 15px;
+    color: rgba(255, 255, 255, 0.829);
+    letter-spacing: 1px;
+    text-align: center;
+    border-spacing: 0;
+}
+tr,td,th
+{
+    padding: 10px 15px;
+    min-width: 90px;
+    border-radius: 2px;
+}
+tr:hover
+{
+    background-color: rgba(255, 255, 255, 0.205);
+}
+td:hover
+{
+    background-color: rgba(202, 94, 245, 0.288);
+}
+th
+{
+    background-color: rgba(68, 0, 240, 0.541);
+}
